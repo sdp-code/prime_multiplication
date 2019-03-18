@@ -5,4 +5,6 @@
                  [org.clojure/math.numeric-tower "0.0.4"]
 				;; [ch.qos.logback/logback-classic "1.1.3"]
 				 ]
+  :uberjar {:uberjar-name "prime_multiplication.jar"
+  :aot [prime_multiplication.core]}
   :main prime_multiplication.core)
